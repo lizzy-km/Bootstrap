@@ -14,12 +14,14 @@ patches and features.
 ## Using the issue tracker
 
 The [issue tracker](https://github.com/twbs/bootstrap/issues) is
-the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests)
-and [submitting pull requests](#pull-requests), but please respect the following
-restrictions:
+the preferred channel for [bug reports](#bug-reports), [features
+requests](#feature-requests) and [submitting pull requests](#pull-requests),
+but please respect the following restrictions:
 
-* Please **do not** use the issue tracker for personal support requests.  Stack
-  Overflow ([`twitter-bootstrap-3`](http://stackoverflow.com/questions/tagged/twitter-bootstrap-3) tag) or [IRC](https://github.com/twbs/bootstrap/blob/master/README.md#community) are better places to get help.
+* Please **do not** use the issue tracker for personal support requests. Stack
+  Overflow ([`twitter-bootstrap-3`](http://stackoverflow.com/questions/tagged/twitter-bootstrap-3) tag)
+  or [IRC](https://github.com/twbs/bootstrap/blob/master/README.md#community)
+  are better places to get help.
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and
   respect the opinions of others.
@@ -36,9 +38,10 @@ Good bug reports are extremely helpful, so thanks!
 
 Guidelines for bug reports:
 
-0. **Validate and lint your code** &mdash; [validate your HTML](http://html5.validator.nu)
-   and [lint your HTML](https://github.com/twbs/bootlint) to ensure your
-   problem isn't caused by a simple error in your own code.
+0. **Validate and lint your code** &mdash;
+   [validate your HTML](http://html5.validator.nu) and
+   [lint your HTML](https://github.com/twbs/bootlint) to ensure your problem
+   isn't caused by a simple error in your own code.
 
 1. **Use the GitHub issue search** &mdash; check if the issue has already been
    reported.
@@ -48,7 +51,8 @@ Guidelines for bug reports:
 
 3. **Isolate the problem** &mdash; ideally create a [reduced test
    case](http://css-tricks.com/6263-reduced-test-cases/) and a live example.
-   [This JS Bin](http://jsbin.com/lefey/1/edit?html,output) is a helpful template.
+   [This JS Bin](http://jsbin.com/lefey/1/edit?html,output) is a helpful
+   template.
 
 
 A good bug report shouldn't leave others needing to chase you up for more
@@ -76,10 +80,13 @@ Example:
 > causing the bug, and potential solutions (and your opinions on their
 > merits).
 
+
 ### Reporting upstream browser bugs
 
-Sometimes bugs reported to us are actually caused by bugs in the browser(s) themselves, not bugs in Bootstrap per se.
-When feasible, we aim to report such upstream bugs to the relevant browser vendor(s), and then list them on our [Wall of Browser Bugs](http://getbootstrap.com/browser-bugs/).
+Sometimes bugs reported to us are actually caused by bugs in the browser(s)
+themselves, not bugs in Bootstrap per se. When feasible, we aim to report such
+upstream bugs to the relevant browser vendor(s), and then list them on our
+[Wall of Browser Bugs](http://getbootstrap.com/browser-bugs/).
 
 | Vendor(s)     | Browser(s)                   | Rendering engine | Bug reporting website(s)                                                              | Notes                                                    |
 | ------------- | ---------------------------- | ---------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -147,7 +154,8 @@ included in the project:
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.
 
-5. Locally merge (or rebase) the upstream development branch into your topic branch:
+5. Locally merge (or rebase) the upstream development branch into your topic
+   branch:
 
    ```bash
    git pull [--rebase] upstream master
@@ -172,16 +180,24 @@ license your work under the terms of the [MIT License](LICENSE.md).
 
 [Adhere to the Code Guide.](http://codeguide.co/#html)
 
-- Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing tags).
-- Use CDNs and HTTPS for third-party JS when possible. We don't use protocol-relative URLs in this case because they break when viewing the page locally via `file://`.
-- Use [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes in documentation examples to promote accessibility.
+- Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing
+  tags).
+- Use CDNs and HTTPS for third-party JS when possible. We don't use
+  protocol-relative URLs in this case because they break when viewing the page
+  locally via `file://`.
+- Use [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+  attributes in documentation examples to promote accessibility.
 
 ### CSS
 
 [Adhere to the Code Guide.](http://codeguide.co/#css)
 
-- When feasible, default color palettes should comply with [WCAG color contrast guidelines](http://www.w3.org/TR/WCAG20/#visual-audio-contrast).
-- Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](http://a11yproject.com/posts/never-remove-css-outlines/) for more details.
+- When feasible, default color palettes should comply with
+  [WCAG color contrast guidelines](http://www.w3.org/TR/WCAG20/#visual-audio-contrast).
+- Except in rare cases, don't remove default `:focus` styles (via e.g.
+  `outline: none;`) without providing alternative styles. See [this A11Y
+  Project post](http://a11yproject.com/posts/never-remove-css-outlines/) for
+  more details.
 
 ### JS
 
@@ -192,11 +208,13 @@ license your work under the terms of the [MIT License](LICENSE.md).
 
 ### Checking coding style
 
-Run `grunt test` before committing to ensure your changes follow our coding standards.
+Run `grunt test` before committing to ensure your changes follow our coding
+standards.
 
 
 ## License
 
-By contributing your code, you agree to license your contribution under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
+By contributing your code, you agree to license your contribution under the
+[MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 Prior to v3.1.0, Bootstrap was released under the Apache License v2.0.
